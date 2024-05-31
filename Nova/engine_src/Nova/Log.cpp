@@ -1,4 +1,4 @@
-#include "Log.hpp"
+#include "napch.hpp"
 
 #include "Log.hpp"
 

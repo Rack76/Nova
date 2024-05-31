@@ -1,3 +1,5 @@
+#include "napch.hpp"
+
 #include "Application.hpp"
 
 namespace Nova {

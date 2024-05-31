@@ -30,12 +30,36 @@
     <ClInclude Include="engine_src\Nova\Log.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="engine_src\Nova\Events\Event.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_src\Nova\Events\EventListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_src\Nova\Events\EventQueue.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_src\Nova\Events\KeyEvent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_src\Nova\Events\MouseEvent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_src\Nova\Events\ApplicationEvent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_src\napch.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="engine_src\Nova\Application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="engine_src\Nova\Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_src\napch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
