@@ -90,28 +90,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="engine_src\Nova\Application.hpp" />
+    <ClInclude Include="engine_src\Nova\Core\Application.hpp" />
     <ClInclude Include="engine_src\Nova.hpp" />
-    <ClInclude Include="engine_src\Nova\Core.hpp" />
-    <ClInclude Include="engine_src\Nova\EntryPoint.hpp" />
+    <ClInclude Include="engine_src\Nova\Core\Core.hpp" />
+    <ClInclude Include="engine_src\Nova\Core\EntryPoint.hpp" />
     <ClInclude Include="engine_src\Nova\Events\ApplicationEvent.hpp" />
     <ClInclude Include="engine_src\Nova\Events\Event.hpp" />
     <ClInclude Include="engine_src\Nova\Events\EventListener.hpp" />
     <ClInclude Include="engine_src\Nova\Events\EventQueue.hpp" />
     <ClInclude Include="engine_src\Nova\Events\KeyEvent.hpp" />
     <ClInclude Include="engine_src\Nova\Events\MouseEvent.hpp" />
-    <ClInclude Include="engine_src\Nova\Log.hpp" />
+    <ClInclude Include="engine_src\Nova\Core\Log.hpp" />
     <ClInclude Include="engine_src\napch.hpp" />
+    <ClInclude Include="engine_src\Nova\Core\Window.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="engine_src\Nova\Application.cpp" />
-    <ClCompile Include="engine_src\Nova\Log.cpp" />
+    <ClCompile Include="engine_src\Nova\Core\Application.cpp" />
+    <ClCompile Include="engine_src\Nova\Core\Log.cpp" />
     <ClCompile Include="engine_src\napch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">napch.hpp</PrecompiledHeaderFile>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">napch.hpp</PrecompiledHeaderFile>
     </ClCompile>
+    <ClCompile Include="engine_src\Nova\Core\Window.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

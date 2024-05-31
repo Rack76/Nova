@@ -1,4 +1,5 @@
 #include <Nova.hpp>
+#include <Nova/Core/EntryPoint.hpp>
 
 class Sandbox : public Nova::Application {
 public:

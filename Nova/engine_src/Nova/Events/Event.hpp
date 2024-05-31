@@ -1,7 +1,7 @@
 #pragma once
 #include "napch.hpp"
 
-#include "Nova/Core.hpp"
+#include "Nova/Core/Core.hpp"
 
 namespace Nova {
 

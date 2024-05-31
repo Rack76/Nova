@@ -2,8 +2,8 @@
 
 // For use by Nova Applications
 
-#include "Nova/Application.hpp"
+#include "Nova/Core/Application.hpp"
 
 // ---- Entry Point -------------------
-#include "Nova/EntryPoint.hpp"
+#include "Nova/Core/EntryPoint.hpp"
 // ------------------------------------

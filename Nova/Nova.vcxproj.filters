@@ -18,16 +18,16 @@
     <ClInclude Include="engine_src\Nova.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="engine_src\Nova\Core.hpp">
+    <ClInclude Include="engine_src\Nova\Core\Core.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="engine_src\Nova\EntryPoint.hpp">
+    <ClInclude Include="engine_src\Nova\Core\EntryPoint.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="engine_src\Nova\Application.hpp">
+    <ClInclude Include="engine_src\Nova\Core\Application.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="engine_src\Nova\Log.hpp">
+    <ClInclude Include="engine_src\Nova\Core\Log.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="engine_src\Nova\Events\Event.hpp">
@@ -51,15 +51,21 @@
     <ClInclude Include="engine_src\napch.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="engine_src\Nova\Core\Window.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="engine_src\Nova\Application.cpp">
+    <ClCompile Include="engine_src\Nova\Core\Application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="engine_src\Nova\Log.cpp">
+    <ClCompile Include="engine_src\Nova\Core\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="engine_src\napch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_src\Nova\Core\Window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
