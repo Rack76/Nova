@@ -6,6 +6,13 @@ Nova is an early-stage interactive application and rendering engine for Windows.
     <img src="/Branding/Nova_Logo.png?raw=true" alt="Nova Logo" />
 </p>
 
+## Getting Started
+Nova is officially untested on other development environments whilst we focus on a Windows build.
+
+### 1. Downloading the repository
+
+Start by cloning the repository with: `git clone --recursive https://github.com/rrandel/Nova`.
+
 ## Vision
 Nova is crafted to be a robust 3D engine with a strong educational focus. It serves as an excellent resource for learning about game engine design and architecture, offering advanced rendering capabilities. Nova's resources and tutorials help users understand key concepts such as rendering pipelines and optimization techniques.
 
